@@ -20,6 +20,6 @@ public:
     const std::string& getName() const;
     void setName(const std::string& name);
 
-    virtual void grow();
-    virtual void eat();
+    void grow();
+    void eat();
 };
