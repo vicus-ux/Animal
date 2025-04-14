@@ -6,7 +6,7 @@ public:
     Bird(int color, int age, const std::string& name)
         : Animal(color, age, name) {}
 
-    void fly() const {
+    void fly() {
         std::cout << name << " is flying!" << std::endl;
     }
 

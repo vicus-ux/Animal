@@ -6,7 +6,7 @@ public:
     Mammal(int color, int age, const std::string& name)
         : Animal(color, age, name) {}
 
-    void run() const {
+    void run() {
         std::cout << name << " is running!" << std::endl;
     }
 

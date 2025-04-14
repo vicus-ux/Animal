@@ -11,8 +11,6 @@ protected:
 public:
     Animal(int color, int age, const std::string& name);
    
-
-    // Геттеры и сеттеры
     int getColor() const;
     void setColor(int color);
 
@@ -22,7 +20,6 @@ public:
     const std::string& getName() const;
     void setName(const std::string& name);
 
-    // Методы
     virtual void grow();
     virtual void eat();
 };

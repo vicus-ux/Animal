@@ -6,7 +6,7 @@ public:
     Fish(int color, int age, const std::string& name)
         : Animal(color, age, name) {}
 
-    void swim() const {
+    void swim() {
         std::cout << name << " is swimming!" << std::endl;
     }
 

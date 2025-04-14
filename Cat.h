@@ -6,7 +6,7 @@ public:
     Cat(int color, int age, const std::string& name)
         : Mammal(color, age, name) {}
 
-    void meow() const {
+    void meow() {
         std::cout << name << " says: Meow!" << std::endl;
     }
 
@@ -14,7 +14,7 @@ public:
         std::cout << name << " is eating " << std::endl;
     }
 
-    void catchMouce() {
-        std::cout << "I catch mouce" << std::endl;
+    void catchMouse() {
+        std::cout << "I catch mouse" << std::endl;
     }
 };

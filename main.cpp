@@ -16,7 +16,7 @@ int main() {
     Dog dog(00000, 6, "Dobbi");
     Unicorn unicorn(0000, 5, "Unicornik");
 
-    // Демонстрация работы
+    
     fish.swim();
     fish.eat();
     fish.grow();
@@ -38,7 +38,7 @@ int main() {
     cat.meow();
     cat.eat();
     cat.grow();
-    cat.catchMouce();
+    cat.catchMouse();
 
     dog.run();
     dog.bark();
@@ -48,7 +48,7 @@ int main() {
 
     unicorn.eat();
     unicorn.runOnTheRainbow();  
-    unicorn.grow();\
+    unicorn.grow();
 
     return 0;
 }

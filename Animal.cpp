@@ -29,7 +29,7 @@ void Animal::setName(const std::string& name) {
 
 void Animal::grow() {
     age++;
-    std::cout << name << " is growing. Now " << age << " years old." << std::endl;
+    std::cout << name << " is growing. That is do " << age << " years old" << std::endl;
 }
 
 void Animal::eat() {
